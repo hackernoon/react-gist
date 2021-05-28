@@ -45,7 +45,6 @@ class Gist extends React.PureComponent {
     return (
       <iframe
         ref={(n) => { this.iframeNode = n; }}
-        width="100%"
         frameBorder={0}
         id={file ? `gist-${id}-${file}` : `gist-${id}`}
       />
